@@ -1,0 +1,27 @@
+.row{
+    text-align: center;
+    margin-bottom: 1px;
+}
+
+.row-white{
+    color: #FFFFFF;
+}
+
+.row-blue{
+    color: #006CFA;
+}
+
+[class^=col]{
+    border: 1px solid #FFFFFF;
+    padding: 1rem;
+}
+
+[class*=col]:not([class*=col-offset]),
+[class*=col]:not([class*=nested]){
+    background-color: #006CFA;
+}
+
+.nested{
+    background-color: #01E165;
+    border: 1px solid #006CFA;
+}
