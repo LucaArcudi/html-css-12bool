@@ -16,8 +16,7 @@
     padding: 1rem;
 }
 
-[class*=col]:not([class*=col-offset]),
-[class*=col]:not([class*=nested]){
+[class*=col]:not([class*=col-offset], [class*=nested]){
     background-color: #006CFA;
 }
 
